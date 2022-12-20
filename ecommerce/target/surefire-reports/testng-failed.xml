@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression]" verbose="0">
+  <test thread-count="5" name="UITest(failed)" verbose="0">
+    <classes>
+      <class name="com.automationpractice.ecommerce.testCases.TestCase12AddProductsInCart">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="testCase12AddProductsInCart"/>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.automationpractice.ecommerce.testCases.TestCase12AddProductsInCart -->
+      <class name="com.automationpractice.ecommerce.testCases.TestCase13VerifyProductQuantityInCart">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+          <include name="testCase13VerifyProductQuantityInCartPages"/>
+        </methods>
+      </class> <!-- com.automationpractice.ecommerce.testCases.TestCase13VerifyProductQuantityInCart -->
+      <class name="com.automationpractice.ecommerce.testCases.TestCase8VerifyAllProductsAndProductDetailPage">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="testCase8VerifyAllProductsAndProductDetailPage"/>
+          <include name="beforeClass"/>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.automationpractice.ecommerce.testCases.TestCase8VerifyAllProductsAndProductDetailPage -->
+    </classes>
+  </test> <!-- UITest(failed) -->
+</suite> <!-- Failed suite [Regression] -->

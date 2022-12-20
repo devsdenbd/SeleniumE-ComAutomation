@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="410.491" tests="13" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.14+8-LTS-263"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\jdk-11.0.14\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\Github\DevsDenBD\SeleniumAutomationPractice\ecommerce"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\Github\DevsDenBD\SeleniumAutomationPractice\ecommerce"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="11.0.14+8-LTS-263"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Talha\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.8.6\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\jdk-11.0.14\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\apache-maven-3.8.6\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\jdk-11.0.14\bin;D:\Talha\SQA\Software\apache-maven-3.8.1\bin;D:\Talha\SQA\Software\allure-commandline-2.12.1\allure-2.12.1\bin;C:\Users\Talha\AppData\Local\Microsoft\WindowsApps;C:\Users\Talha\AppData\Roaming\npm;C:\Users\Talha\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="maven.conf" value="C:\Program Files\apache-maven-3.8.6/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.8.6\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\Talha"/>
+    <property name="user.timezone" value="Asia/Dhaka"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="Talha"/>
+    <property name="java.class.path" value="C:\Program Files\apache-maven-3.8.6\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.home" value="C:\Program Files\jdk-11.0.14"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.14"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.8.6"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="testCase1RegisterUser" classname="com.automationpractice.ecommerce.testCases.TestCase1RegisterUser" time="67.886"/>
+  <testcase name="testCase4LogoutUser" classname="com.automationpractice.ecommerce.testCases.TestCase4LogoutUser" time="18.414"/>
+  <testcase name="testCase3LoginUserWithIncorrectEmailAndPassword" classname="com.automationpractice.ecommerce.testCases.TestCase3LoginUserWithIncorrectEmailAndPassword" time="6.455"/>
+  <testcase name="testCase5RegisterUserWithExistingEmail" classname="com.automationpractice.ecommerce.testCases.TestCase5RegisterUserWithExistingEmail" time="13.877"/>
+  <testcase name="testCase2LoginUserWithCorrectEmailAndPassword" classname="com.automationpractice.ecommerce.testCases.TestCase2LoginUserWithCorrectEmailAndPassword" time="22.228"/>
+  <testcase name="testCase6ContactUsForm" classname="com.automationpractice.ecommerce.testCases.TestCase6ContactUsForm" time="36.161"/>
+  <testcase name="testCase7VerifyTestCasesPage" classname="com.automationpractice.ecommerce.testCases.TestCase7VerifyTestCasesPage" time="4.563"/>
+  <testcase name="testCase8VerifyAllProductsAndProductDetailPage" classname="com.automationpractice.ecommerce.testCases.TestCase8VerifyAllProductsAndProductDetailPage" time="2.052">
+    <failure message="expected [https://www.automationexercise.com/products] but found [https://www.automationexercise.com/#google_vignette]" type="java.lang.AssertionError">java.lang.AssertionError: expected [https://www.automationexercise.com/products] but found [https://www.automationexercise.com/#google_vignette]
+	at com.automationpractice.ecommerce.testCases.TestCase8VerifyAllProductsAndProductDetailPage.testCase8VerifyAllProductsAndProductDetailPage(TestCase8VerifyAllProductsAndProductDetailPage.java:40)
+</failure>
+    <system-out><![CDATA[ 
+Given https://www.automationexercise.com/
+Home URL is validate
+? Products- Element is Visible ??? 
+Given https://www.automationexercise.com/#google_vignette
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 41321
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 20, 2022 6:52:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testCase9SearchProduct" classname="com.automationpractice.ecommerce.testCases.TestCase9SearchProduct" time="26.49"/>
+  <testcase name="testCase10VerifySubscriptionInHomepage" classname="com.automationpractice.ecommerce.testCases.TestCase10VerifySubscriptionInHomepage" time="3.012"/>
+  <testcase name="testCase11VerifySubscriptionInCartpagePages_TC" classname="com.automationpractice.ecommerce.testCases.TestCase11VerifySubscriptionInCartpagePages_TC" time="6.842"/>
+  <testcase name="testCase12AddProductsInCart" classname="com.automationpractice.ecommerce.testCases.TestCase12AddProductsInCart" time="44.401">
+    <failure message="element not interactable&#10;  (Session info: chrome=108.0.5359.125)&#10;Build info: version: &apos;4.0.0-alpha-6&apos;, revision: &apos;5f43a29cfc&apos;&#10;System info: host: &apos;DESKTOP-C6OQV70&apos;, ip: &apos;192.168.0.193&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.14&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Talha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53601}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 4e0c035b15ebb38bc0e904d0449a7c76" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'DESKTOP-C6OQV70', ip: '192.168.0.193', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Talha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53601}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4e0c035b15ebb38bc0e904d0449a7c76
+	at com.automationpractice.ecommerce.testCases.TestCase12AddProductsInCart.testCase12AddProductsInCart(TestCase12AddProductsInCart.java:39)
+</failure>
+    <system-out><![CDATA[ 
+Given https://www.automationexercise.com/
+Home URL is validate
+? Products- Element is Visible ??? 
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 13124
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 20, 2022 6:53:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testCase13VerifyProductQuantityInCartPages" classname="com.automationpractice.ecommerce.testCases.TestCase13VerifyProductQuantityInCart" time="3.055">
+    <failure message="expected [https://www.automationexercise.com/product_details/1] but found [https://www.automationexercise.com/#google_vignette]" type="java.lang.AssertionError">java.lang.AssertionError: expected [https://www.automationexercise.com/product_details/1] but found [https://www.automationexercise.com/#google_vignette]
+	at com.automationpractice.ecommerce.testCases.TestCase13VerifyProductQuantityInCart.testCase13VerifyProductQuantityInCartPages(TestCase13VerifyProductQuantityInCart.java:38)
+</failure>
+    <system-out><![CDATA[ 
+Given https://www.automationexercise.com/
+Home URL is validate
+?View Product? Text IS Visible 
+Given https://www.automationexercise.com/#google_vignette
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 6551
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 20, 2022 6:54:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

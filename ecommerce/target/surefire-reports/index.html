@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Regression" class="navigator-link">
+              <span class="suite-name border-failed">Regression</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Regression" class="navigator-link ">
+                    <span>E:\Github\DevsDenBD\SeleniumAutomationPractice\ecommerce\testngSuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Regression" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Regression" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Regression" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Regression" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Regression" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Regression" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods, 3 failed,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Regression" class="hide-methods failed suite-Regression"> (hide)</a> <!-- hide-methods failed suite-Regression -->
+                      <a href="#" panel-name="suite-Regression" class="show-methods failed suite-Regression"> (show)</a> <!-- show-methods failed suite-Regression -->
+                    </span>
+                    <div class="method-list-content failed suite-Regression">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="com.automationpractice.ecommerce.testCases.TestCase12AddProductsInCart" class="method navigator-link" hash-for-method="testCase12AddProductsInCart">testCase12AddProductsInCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="com.automationpractice.ecommerce.testCases.TestCase13VerifyProductQuantityInCart" class="method navigator-link" hash-for-method="testCase13VerifyProductQuantityInCartPages">testCase13VerifyProductQuantityInCartPages</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="com.automationpractice.ecommerce.testCases.TestCase8VerifyAllProductsAndProductDetailPage" class="method navigator-link" hash-for-method="testCase8VerifyAllProductsAndProductDetailPage">testCase8VerifyAllProductsAndProductDetailPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Regression -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Regression" class="hide-methods passed suite-Regression"> (hide)</a> <!-- hide-methods passed suite-Regression -->
+                      <a href="#" panel-name="suite-Regression" class="show-methods passed suite-Regression"> (show)</a> <!-- show-methods passed suite-Regression -->
+                    </span>
+                    <div class="method-list-content passed suite-Regression">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="com.automationpractice.ecommerce.testCases.TestCase10VerifySubscriptionInHomepage" class="method navigator-link" hash-for-method="testCase10VerifySubscriptionInHomepage">testCase10VerifySubscriptionInHomepage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="com.automationpractice.ecommerce.testCases.TestCase11VerifySubscriptionInCartpagePages_TC" class="method navigator-link" hash-for-method="testCase11VerifySubscriptionInCartpagePages_TC">testCase11VerifySubscriptionInCartpagePages_TC</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="com.automationpractice.ecommerce.testCases.TestCase1RegisterUser" class="method navigator-link" hash-for-method="testCase1RegisterUser">testCase1RegisterUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="com.automationpractice.ecommerce.testCases.TestCase2LoginUserWithCorrectEmailAndPassword" class="method navigator-link" hash-for-method="testCase2LoginUserWithCorrectEmailAndPassword">testCase2LoginUserWithCorrectEmailAndPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="com.automationpractice.ecommerce.testCases.TestCase3LoginUserWithIncorrectEmailAndPassword" class="method navigator-link" hash-for-method="testCase3LoginUserWithIncorrectEmailAndPassword">testCase3LoginUserWithIncorrectEmailAndPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="com.automationpractice.ecommerce.testCases.TestCase4LogoutUser" class="method navigator-link" hash-for-method="testCase4LogoutUser">testCase4LogoutUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="com.automationpractice.ecommerce.testCases.TestCase5RegisterUserWithExistingEmail" class="method navigator-link" hash-for-method="testCase5RegisterUserWithExistingEmail">testCase5RegisterUserWithExistingEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="com.automationpractice.ecommerce.testCases.TestCase6ContactUsForm" class="method navigator-link" hash-for-method="testCase6ContactUsForm">testCase6ContactUsForm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="com.automationpractice.ecommerce.testCases.TestCase7VerifyTestCasesPage" class="method navigator-link" hash-for-method="testCase7VerifyTestCasesPage">testCase7VerifyTestCasesPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="com.automationpractice.ecommerce.testCases.TestCase9SearchProduct" class="method navigator-link" hash-for-method="testCase9SearchProduct">testCase9SearchProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Regression -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Regression" class="panel Regression">
+          <div class="suite-Regression-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.automationpractice.ecommerce.testCases.TestCase12AddProductsInCart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase12AddProductsInCart">
+                  </a> <!-- testCase12AddProductsInCart -->
+                  <span class="method-name">testCase12AddProductsInCart</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=108.0.5359.125)
+Build info: version: &apos;4.0.0-alpha-6&apos;, revision: &apos;5f43a29cfc&apos;
+System info: host: &apos;DESKTOP-C6OQV70&apos;, ip: &apos;192.168.0.193&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.14&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Talha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53601}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4e0c035b15ebb38bc0e904d0449a7c76
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:316)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy15.click(Unknown Source)
+	at com.automationpractice.ecommerce.testCases.TestCase12AddProductsInCart.testCase12AddProductsInCart(TestCase12AddProductsInCart.java:39)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-failed -->
+          <div class="suite-Regression-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.automationpractice.ecommerce.testCases.TestCase13VerifyProductQuantityInCart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase13VerifyProductQuantityInCartPages">
+                  </a> <!-- testCase13VerifyProductQuantityInCartPages -->
+                  <span class="method-name">testCase13VerifyProductQuantityInCartPages</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [https://www.automationexercise.com/product_details/1] but found [https://www.automationexercise.com/#google_vignette]
+	at com.automationpractice.ecommerce.testCases.TestCase13VerifyProductQuantityInCart.testCase13VerifyProductQuantityInCartPages(TestCase13VerifyProductQuantityInCart.java:38)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-failed -->
+          <div class="suite-Regression-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.automationpractice.ecommerce.testCases.TestCase8VerifyAllProductsAndProductDetailPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase8VerifyAllProductsAndProductDetailPage">
+                  </a> <!-- testCase8VerifyAllProductsAndProductDetailPage -->
+                  <span class="method-name">testCase8VerifyAllProductsAndProductDetailPage</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [https://www.automationexercise.com/products] but found [https://www.automationexercise.com/#google_vignette]
+	at com.automationpractice.ecommerce.testCases.TestCase8VerifyAllProductsAndProductDetailPage.testCase8VerifyAllProductsAndProductDetailPage(TestCase8VerifyAllProductsAndProductDetailPage.java:40)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-failed -->
+          <div class="suite-Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automationpractice.ecommerce.testCases.TestCase4LogoutUser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase4LogoutUser">
+                  </a> <!-- testCase4LogoutUser -->
+                  <span class="method-name">testCase4LogoutUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-passed -->
+          <div class="suite-Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automationpractice.ecommerce.testCases.TestCase11VerifySubscriptionInCartpagePages_TC</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase11VerifySubscriptionInCartpagePages_TC">
+                  </a> <!-- testCase11VerifySubscriptionInCartpagePages_TC -->
+                  <span class="method-name">testCase11VerifySubscriptionInCartpagePages_TC</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-passed -->
+          <div class="suite-Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automationpractice.ecommerce.testCases.TestCase9SearchProduct</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase9SearchProduct">
+                  </a> <!-- testCase9SearchProduct -->
+                  <span class="method-name">testCase9SearchProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-passed -->
+          <div class="suite-Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automationpractice.ecommerce.testCases.TestCase3LoginUserWithIncorrectEmailAndPassword</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase3LoginUserWithIncorrectEmailAndPassword">
+                  </a> <!-- testCase3LoginUserWithIncorrectEmailAndPassword -->
+                  <span class="method-name">testCase3LoginUserWithIncorrectEmailAndPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-passed -->
+          <div class="suite-Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automationpractice.ecommerce.testCases.TestCase5RegisterUserWithExistingEmail</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase5RegisterUserWithExistingEmail">
+                  </a> <!-- testCase5RegisterUserWithExistingEmail -->
+                  <span class="method-name">testCase5RegisterUserWithExistingEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-passed -->
+          <div class="suite-Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automationpractice.ecommerce.testCases.TestCase6ContactUsForm</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase6ContactUsForm">
+                  </a> <!-- testCase6ContactUsForm -->
+                  <span class="method-name">testCase6ContactUsForm</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-passed -->
+          <div class="suite-Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automationpractice.ecommerce.testCases.TestCase10VerifySubscriptionInHomepage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase10VerifySubscriptionInHomepage">
+                  </a> <!-- testCase10VerifySubscriptionInHomepage -->
+                  <span class="method-name">testCase10VerifySubscriptionInHomepage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-passed -->
+          <div class="suite-Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automationpractice.ecommerce.testCases.TestCase1RegisterUser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase1RegisterUser">
+                  </a> <!-- testCase1RegisterUser -->
+                  <span class="method-name">testCase1RegisterUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-passed -->
+          <div class="suite-Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automationpractice.ecommerce.testCases.TestCase2LoginUserWithCorrectEmailAndPassword</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase2LoginUserWithCorrectEmailAndPassword">
+                  </a> <!-- testCase2LoginUserWithCorrectEmailAndPassword -->
+                  <span class="method-name">testCase2LoginUserWithCorrectEmailAndPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-passed -->
+          <div class="suite-Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automationpractice.ecommerce.testCases.TestCase7VerifyTestCasesPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase7VerifyTestCasesPage">
+                  </a> <!-- testCase7VerifyTestCasesPage -->
+                  <span class="method-name">testCase7VerifyTestCasesPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-passed -->
+        </div> <!-- panel Regression -->
+        <div panel-name="test-xml-Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\Github\DevsDenBD\SeleniumAutomationPractice\ecommerce\testngSuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Regression&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;UITest&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.automationpractice.ecommerce.testCases.TestCase1RegisterUser&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testCase1RegisterUser&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.automationpractice.ecommerce.testCases.TestCase1RegisterUser --&gt;
+      &lt;class name=&quot;com.automationpractice.ecommerce.testCases.TestCase4LogoutUser&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testCase4LogoutUser&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.automationpractice.ecommerce.testCases.TestCase4LogoutUser --&gt;
+      &lt;class name=&quot;com.automationpractice.ecommerce.testCases.TestCase3LoginUserWithIncorrectEmailAndPassword&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testCase3LoginUserWithIncorrectEmailAndPassword&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.automationpractice.ecommerce.testCases.TestCase3LoginUserWithIncorrectEmailAndPassword --&gt;
+      &lt;class name=&quot;com.automationpractice.ecommerce.testCases.TestCase5RegisterUserWithExistingEmail&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testCase5RegisterUserWithExistingEmail&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.automationpractice.ecommerce.testCases.TestCase5RegisterUserWithExistingEmail --&gt;
+      &lt;class name=&quot;com.automationpractice.ecommerce.testCases.TestCase2LoginUserWithCorrectEmailAndPassword&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testCase2LoginUserWithCorrectEmailAndPassword&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.automationpractice.ecommerce.testCases.TestCase2LoginUserWithCorrectEmailAndPassword --&gt;
+      &lt;class name=&quot;com.automationpractice.ecommerce.testCases.TestCase6ContactUsForm&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testCase6ContactUsForm&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.automationpractice.ecommerce.testCases.TestCase6ContactUsForm --&gt;
+      &lt;class name=&quot;com.automationpractice.ecommerce.testCases.TestCase7VerifyTestCasesPage&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testCase7VerifyTestCasesPage&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.automationpractice.ecommerce.testCases.TestCase7VerifyTestCasesPage --&gt;
+      &lt;class name=&quot;com.automationpractice.ecommerce.testCases.TestCase8VerifyAllProductsAndProductDetailPage&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testCase8VerifyAllProductsAndProductDetailPage&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.automationpractice.ecommerce.testCases.TestCase8VerifyAllProductsAndProductDetailPage --&gt;
+      &lt;class name=&quot;com.automationpractice.ecommerce.testCases.TestCase9SearchProduct&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testCase9SearchProduct&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.automationpractice.ecommerce.testCases.TestCase9SearchProduct --&gt;
+      &lt;class name=&quot;com.automationpractice.ecommerce.testCases.TestCase10VerifySubscriptionInHomepage&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testCase10VerifySubscriptionInHomepage&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.automationpractice.ecommerce.testCases.TestCase10VerifySubscriptionInHomepage --&gt;
+      &lt;class name=&quot;com.automationpractice.ecommerce.testCases.TestCase11VerifySubscriptionInCartpagePages_TC&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testCase11VerifySubscriptionInCartpagePages_TC&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.automationpractice.ecommerce.testCases.TestCase11VerifySubscriptionInCartpagePages_TC --&gt;
+      &lt;class name=&quot;com.automationpractice.ecommerce.testCases.TestCase12AddProductsInCart&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testCase12AddProductsInCart&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.automationpractice.ecommerce.testCases.TestCase12AddProductsInCart --&gt;
+      &lt;class name=&quot;com.automationpractice.ecommerce.testCases.TestCase13VerifyProductQuantityInCart&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testCase13VerifyProductQuantityInCartPages&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.automationpractice.ecommerce.testCases.TestCase13VerifyProductQuantityInCart --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- UITest --&gt;
+&lt;/suite&gt; &lt;!-- Regression --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Regression</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">UITest (13 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Regression</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Regression</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Regression');
+function tableData_Regression() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testCase1RegisterUser')
+data.setCell(0, 2, 'com.automationpractice.ecommerce.testCases.TestCase1RegisterUser')
+data.setCell(0, 3, 67886);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testCase12AddProductsInCart')
+data.setCell(1, 2, 'com.automationpractice.ecommerce.testCases.TestCase12AddProductsInCart')
+data.setCell(1, 3, 44400);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testCase6ContactUsForm')
+data.setCell(2, 2, 'com.automationpractice.ecommerce.testCases.TestCase6ContactUsForm')
+data.setCell(2, 3, 36161);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testCase9SearchProduct')
+data.setCell(3, 2, 'com.automationpractice.ecommerce.testCases.TestCase9SearchProduct')
+data.setCell(3, 3, 26490);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testCase2LoginUserWithCorrectEmailAndPassword')
+data.setCell(4, 2, 'com.automationpractice.ecommerce.testCases.TestCase2LoginUserWithCorrectEmailAndPassword')
+data.setCell(4, 3, 22228);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testCase4LogoutUser')
+data.setCell(5, 2, 'com.automationpractice.ecommerce.testCases.TestCase4LogoutUser')
+data.setCell(5, 3, 18414);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testCase5RegisterUserWithExistingEmail')
+data.setCell(6, 2, 'com.automationpractice.ecommerce.testCases.TestCase5RegisterUserWithExistingEmail')
+data.setCell(6, 3, 13877);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testCase11VerifySubscriptionInCartpagePages_TC')
+data.setCell(7, 2, 'com.automationpractice.ecommerce.testCases.TestCase11VerifySubscriptionInCartpagePages_TC')
+data.setCell(7, 3, 6842);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testCase3LoginUserWithIncorrectEmailAndPassword')
+data.setCell(8, 2, 'com.automationpractice.ecommerce.testCases.TestCase3LoginUserWithIncorrectEmailAndPassword')
+data.setCell(8, 3, 6455);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testCase7VerifyTestCasesPage')
+data.setCell(9, 2, 'com.automationpractice.ecommerce.testCases.TestCase7VerifyTestCasesPage')
+data.setCell(9, 3, 4563);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testCase13VerifyProductQuantityInCartPages')
+data.setCell(10, 2, 'com.automationpractice.ecommerce.testCases.TestCase13VerifyProductQuantityInCart')
+data.setCell(10, 3, 3054);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testCase10VerifySubscriptionInHomepage')
+data.setCell(11, 2, 'com.automationpractice.ecommerce.testCases.TestCase10VerifySubscriptionInHomepage')
+data.setCell(11, 3, 3012);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testCase8VerifyAllProductsAndProductDetailPage')
+data.setCell(12, 2, 'com.automationpractice.ecommerce.testCases.TestCase8VerifyAllProductsAndProductDetailPage')
+data.setCell(12, 3, 2049);
+window.suiteTableData['Regression']= { tableData: data, tableDiv: 'times-div-Regression'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-Regression">
+              </div> <!-- times-div-Regression -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Regression</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automationpractice.ecommerce.testCases.TestCase1RegisterUser</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">1614 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCase1RegisterUser</span>
+                <span class="method-start">11886 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">79772 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">79772 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automationpractice.ecommerce.testCases.TestCase4LogoutUser</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">80345 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">81412 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCase4LogoutUser</span>
+                <span class="method-start">93203 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">111617 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">111617 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automationpractice.ecommerce.testCases.TestCase3LoginUserWithIncorrectEmailAndPassword</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">112175 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">113248 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCase3LoginUserWithIncorrectEmailAndPassword</span>
+                <span class="method-start">123713 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">130168 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">130168 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automationpractice.ecommerce.testCases.TestCase5RegisterUserWithExistingEmail</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">130728 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">131805 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCase5RegisterUserWithExistingEmail</span>
+                <span class="method-start">141847 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">155724 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">155724 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automationpractice.ecommerce.testCases.TestCase2LoginUserWithCorrectEmailAndPassword</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">156286 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">157355 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCase2LoginUserWithCorrectEmailAndPassword</span>
+                <span class="method-start">166980 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">189208 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">189208 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automationpractice.ecommerce.testCases.TestCase6ContactUsForm</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">189775 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">190846 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCase6ContactUsForm</span>
+                <span class="method-start">200428 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">236589 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">236589 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automationpractice.ecommerce.testCases.TestCase7VerifyTestCasesPage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">237152 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">238222 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCase7VerifyTestCasesPage</span>
+                <span class="method-start">248032 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">252595 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">252595 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automationpractice.ecommerce.testCases.TestCase8VerifyAllProductsAndProductDetailPage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">253154 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">254222 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCase8VerifyAllProductsAndProductDetailPage</span>
+                <span class="method-start">264644 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">266696 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">266696 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automationpractice.ecommerce.testCases.TestCase9SearchProduct</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">267253 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">268322 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCase9SearchProduct</span>
+                <span class="method-start">278122 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">304612 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">304612 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automationpractice.ecommerce.testCases.TestCase10VerifySubscriptionInHomepage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">305171 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">306226 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCase10VerifySubscriptionInHomepage</span>
+                <span class="method-start">316310 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">319322 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">319323 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automationpractice.ecommerce.testCases.TestCase11VerifySubscriptionInCartpagePages_TC</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">319880 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">320942 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCase11VerifySubscriptionInCartpagePages_TC</span>
+                <span class="method-start">331395 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">338237 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">338237 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automationpractice.ecommerce.testCases.TestCase12AddProductsInCart</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">338797 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">339860 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCase12AddProductsInCart</span>
+                <span class="method-start">350476 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">394876 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">394876 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automationpractice.ecommerce.testCases.TestCase13VerifyProductQuantityInCart</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">395439 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">396502 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCase13VerifyProductQuantityInCartPages</span>
+                <span class="method-start">406647 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">409702 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">409702 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
