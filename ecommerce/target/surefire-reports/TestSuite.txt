@@ -1,0 +1,23 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 410.491 sec <<< FAILURE! - in TestSuite
+testCase8VerifyAllProductsAndProductDetailPage(com.automationpractice.ecommerce.testCases.TestCase8VerifyAllProductsAndProductDetailPage)  Time elapsed: 2.052 sec  <<< FAILURE!
+java.lang.AssertionError: expected [https://www.automationexercise.com/products] but found [https://www.automationexercise.com/#google_vignette]
+	at com.automationpractice.ecommerce.testCases.TestCase8VerifyAllProductsAndProductDetailPage.testCase8VerifyAllProductsAndProductDetailPage(TestCase8VerifyAllProductsAndProductDetailPage.java:40)
+
+testCase12AddProductsInCart(com.automationpractice.ecommerce.testCases.TestCase12AddProductsInCart)  Time elapsed: 44.401 sec  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'DESKTOP-C6OQV70', ip: '192.168.0.193', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Talha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53601}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4e0c035b15ebb38bc0e904d0449a7c76
+	at com.automationpractice.ecommerce.testCases.TestCase12AddProductsInCart.testCase12AddProductsInCart(TestCase12AddProductsInCart.java:39)
+
+testCase13VerifyProductQuantityInCartPages(com.automationpractice.ecommerce.testCases.TestCase13VerifyProductQuantityInCart)  Time elapsed: 3.055 sec  <<< FAILURE!
+java.lang.AssertionError: expected [https://www.automationexercise.com/product_details/1] but found [https://www.automationexercise.com/#google_vignette]
+	at com.automationpractice.ecommerce.testCases.TestCase13VerifyProductQuantityInCart.testCase13VerifyProductQuantityInCartPages(TestCase13VerifyProductQuantityInCart.java:38)
+
